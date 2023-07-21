@@ -1,0 +1,31 @@
+body {
+    color: #30353A;
+    font-family: Inter;
+    background-color: #D3D3D3;
+  }
+  
+  h1 {
+    color: #30353A;
+  }
+  
+  h2 {
+    color: #30353A;
+  }
+  
+  h3 {
+    color: #30353A;
+  }
+  
+  p {
+    color: #5E574D;
+  }
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+
+  
+
