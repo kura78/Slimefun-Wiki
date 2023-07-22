@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-        img: String,
+        image: String,
         title: String,
     }
 }
@@ -13,6 +13,7 @@ export default {
       <h3>{{ title }}</h3>
     </div>
     <div class="card-body">
+      <img v-if="image" :src="image" aria-hidden="true" class="card-image" />
         <slot></slot>
     </div>
   </div>
@@ -20,11 +21,20 @@ export default {
  
 <style>
 .card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 40%;
   border-radius: 5px;
-  align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 

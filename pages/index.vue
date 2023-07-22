@@ -21,7 +21,9 @@
                     <h2>Popular Pages</h2>
                     <hr>
                 </div>
-                
+                <div>
+                    <card image="/assets/card-images/card1-image.jpg" />
+                </div>
                 <div class="highest-rated-pages">
                     <h2>Highest Rated Pages</h2>
                     <hr>
@@ -30,6 +32,7 @@
             </div>
         </div>
         <div>
+        
   </div>
     </div>
 </template>
