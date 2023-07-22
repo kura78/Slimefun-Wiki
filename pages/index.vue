@@ -16,7 +16,9 @@
                         </span>
                     </div>
                 </div>
-                <h1>Popular Pages</h1>
+                <h2>Popular Pages</h2>
+                <hr>
+                
             </div>
         </div>
     </div>
