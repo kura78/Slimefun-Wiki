@@ -9,7 +9,6 @@
         <a class="header-link" href="#">Base</a>
         <a class="header-link" href="#">Addons</a>
       </div>
-    
     </div>
   </div>
 </template>

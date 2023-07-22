@@ -1,10 +1,4 @@
-<script>
-import Header from '../components/header.vue';
-</script>
 <template>
-    <div>
-        <Header />
-    </div>
     <div class="page-container">
         <div class="page-content">
             <div>
