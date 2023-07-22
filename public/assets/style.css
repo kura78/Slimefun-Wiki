@@ -129,5 +129,32 @@ hr {
 .about-box {
   width: 300px;
   padding: 10px;
+}
 
+.footerTop {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: var(--font1);
+}
+
+.footer {
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLink {
+  color: var(--accent1);
+  text-decoration: underline !important;
+  border-radius: 5px;
+}
+
+.popular-pages, .highest-rated-pages {
+  padding-top: 10px;
 }

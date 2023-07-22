@@ -16,8 +16,16 @@
                         </span>
                     </div>
                 </div>
-                <h2>Popular Pages</h2>
-                <hr>
+                
+                <div class="popular-pages">
+                    <h2>Popular Pages</h2>
+                    <hr>
+                </div>
+                
+                <div class="highest-rated-pages">
+                    <h2>Highest Rated Pages</h2>
+                    <hr>
+                </div>
                 
             </div>
         </div>
