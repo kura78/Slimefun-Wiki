@@ -12,7 +12,7 @@ Contributing is always welcome as this is a large project I most likely wont be 
 
 # Running Requirements
 
-In order to run Slimefun Handbook, you need to have cloned the git repository and had ran `npm i` before running. You can start the server with `npm run dev` for development or `npm run preview` for preview.
+In order to run Slimefun Handbook, you need to have cloned the git repository and had ran `npm i` before running. You can start the server with `npm run dev` for development or `npm run preview` for preview. On Windows you have to run it with `npm run dev-win`, but the repository information will not work.
 
 # Conclusion
 
