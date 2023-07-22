@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+[data-theme="light"] {
+  --bg1: #e6e6f7;
+  --bg2: #e1e1fa;
+
+  --txt1: #30353b;
+  --txt2: #30353A;
+}
+
 body {
-  color: #30353A;
+  color: var(--txt1);
   font-family: Inter, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6e6f7;
+  background-color: var(--bg1);
 }
 
 h1 {
-  color: #30353b;
+  color: var(--txt2);
   flex: auto;
   font-size: 24px;
   font-weight: bold;
@@ -19,7 +27,7 @@ hr {
   border-radius: 10px;
   height: 5px;
   border: none;
-  background-color: #30353A;
+  background-color: var(--txt2);
   width: 100px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -35,7 +43,6 @@ hr {
 
 .wordmark-link {
   color: var(--txt1);
-  font-family: var(--font1);
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
@@ -49,7 +56,7 @@ hr {
 }
 
 .header {
-  background: #e1e1fa;
+  background: var(--bg2);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   justify-content: center;
   position: fixed;
@@ -86,6 +93,7 @@ hr {
 
 .page-container {
   margin: auto;
+  padding: 15px;
   max-width: 1024px;
   padding-top: 60px;
 }
@@ -108,4 +116,5 @@ hr {
 .about-box {
   width: 300px;
   padding: 10px;
+
 }

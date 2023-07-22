@@ -1,5 +1,16 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false  } , 
-  pages: true 
+  app: {
+    head: {
+      title: 'Slimefun Handbook',
+      meta: [
+        { name: "Slimefun Handbook", content: "" }
+      ],
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      bodyAttrs: {
+        'data-theme': 'light'
+      }
+    },
+  },
+  pages: true,
 })
