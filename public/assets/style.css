@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-[data-theme="light"] {
-  --bg1: #e6e6f7;
-  --bg2: #e3e3fc;
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg1: #e6e6f7;
+    --bg2: #e3e3fc;
 
-  --txt1: #30353b;
-  --txt2: #30353A;
+    --txt1: #30353b;
+    --txt2: #30353A;
 
-  --accent1: #4946ff;
+    --accent1: #4946ff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg1: #e6e6f7;
+    --bg2: #e3e3fc;
+
+    --txt1: #30353b;
+    --txt2: #30353A;
+
+    --accent1: #4946ff;
+  }
 }
 
 body {
@@ -157,6 +171,7 @@ hr {
   border-radius: 5px;
 }
 
-.popular-pages, .highest-rated-pages {
+.popular-pages,
+.highest-rated-pages {
   padding-top: 10px;
 }
