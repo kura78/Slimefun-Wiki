@@ -51,8 +51,8 @@ p {
   flex-grow: 5;
 }
 
-.headerLink {
-  margin-left: 15px;
+.topnav-left {
+  margin-left: 5px;
   margin-right: 20px;
   color: var(--txt1);
   font-family: var(--font1);
