@@ -155,6 +155,11 @@ hr {
   font-family: var(--font1);
 }
 
+.footerBottom {
+  text-align: center;
+  font-family: var(--font1);
+}
+
 .footer {
   max-width: 1024px;
   margin: auto;

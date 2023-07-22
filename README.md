@@ -10,6 +10,10 @@ Slimefun is something that I'm heavily invested in. I understand the struggle of
 
 Contributing is always welcome as this is a large project I most likely wont be able to add all information on every Slimefun item. Your GitHub username will be displayed on the page that you contribute to!
 
+# Running Requirements
+
+In order to run Slimefun Handbook, you need to have cloned the git repository and had ran `npm i` before running. You can start the server with `npm run dev` for development or `npm run preview` for preview.
+
 # Conclusion
 
 TBD
