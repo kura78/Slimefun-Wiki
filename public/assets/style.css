@@ -33,6 +33,11 @@ hr {
   margin-bottom: 20px;
 }
 
+.book-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
 .wordmark {
   align-items: center;
   border-radius: 5px;
