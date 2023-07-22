@@ -21,7 +21,7 @@ export default {
           Github.
         </div>
         <div class="footerBottom">
-            {{ branch }}@<a :href="commiturl" class="footerLink">{{ commit }}</a> &bull; Open an issue &bull; <a href="https://github.com/kura78/Slimefun-Wiki/fork">Fork repository</a>
+            {{ branch }}@<a :href="commiturl" class="footerLink">{{ commit }}</a> &bull; <a class="footerLink" href="https://github.com/kura78/Slimefun-Wiki/issues">Open an issue</a> &bull; <a class="footerLink" href="https://github.com/kura78/Slimefun-Wiki/fork">Fork repository</a>
         </div>
       </div>
     </div>
