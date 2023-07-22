@@ -8,6 +8,7 @@
         <a class="header-link" href="#">Addons</a>
         <a class="header-link" href="#">Slimefun</a>
       </div>
+    
     </div>
   </div>
 </template>

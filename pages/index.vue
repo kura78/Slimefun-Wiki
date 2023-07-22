@@ -18,7 +18,7 @@ import Header from '../components/header.vue';
                     <div class="about-box">
                         <h1>What's the purpose of this?</h1>
                         <span>
-                            A major problem with Slimefun is that there isnt good documentation on the purpose of items or how to use them. Slimefun Handbook intends to have in depth explinations.
+                            A major problem with Slimefun is that there isn't good documentation on the purpose of items or how to use them. Slimefun Handbook intends to have in depth explanations.
                         </span>
                     </div>
                 </div>
