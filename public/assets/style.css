@@ -8,7 +8,6 @@ body {
 
 h1 {
   color: #30353b;
-  text-align: center;
   flex: auto;
   font-size: 24px;
   font-weight: bold;
@@ -22,14 +21,6 @@ hr {
   width: 100px;
   margin: 0 auto;
   margin-bottom: 20px;
-}
-
-p {
-  text-align: center;
-}
-
-.text-box {
-  text-align: center;
 }
 
 .wordmark {
@@ -49,7 +40,8 @@ p {
   transition: .1s;
 }
 
-.header, .header-content {
+.header,
+.header-content {
   display: flex;
   width: 100%;
 }
@@ -90,6 +82,25 @@ p {
   transition: .1s;
 }
 
-.content {
-  padding: 16px;
+.page-container {
+  margin: auto;
+  max-width: 1024px;
+  padding-top: 60px;
+}
+
+.page-content {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1024px;
+}
+
+.about-boxes {
+  display: flex;
+}
+
+.about-box {
+  width: 300px;
+  padding: 10px;
 }

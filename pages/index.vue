@@ -5,8 +5,26 @@ import Header from '../components/header.vue';
     <div>
         <Header />
     </div>
-    <div>
-        
+    <div class="page-container">
+        <div class="page-content">
+            <div>
+                <div class="about-boxes">
+                    <div class="about-box">
+                        <h1>What is Slimefun?</h1>
+                        <span>
+                            Slimefun is a Minecraft plugin which adds a lot of new content to Minecraft, such as machines, automation, custom items, more progression and advancements.
+                        </span>
+                    </div>
+                    <div class="about-box">
+                        <h1>What's the purpose of this?</h1>
+                        <span>
+                            A major problem with Slimefun is that there isnt good documentation on the purpose of items or how to use them. Slimefun Handbook intends to have in depth explinations.
+                        </span>
+                    </div>
+                </div>
+                <h1>Popular Pages</h1>
+            </div>
+        </div>
     </div>
 </template>
 
