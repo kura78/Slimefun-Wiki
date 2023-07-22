@@ -1,13 +1,13 @@
 <template>
-  <div> </div>
-    <div class="headerContent sticky">
+  <div class="header">
+    <div class="header-content">
       <div class="wordmark">
-        <a class="headerLink" href="#">Slimefun Handbook      </a>
+        <a class="header-link" href="/">Slimefun Handbook</a>
       </div>
-      <div class="headerLinksArea">
-        <a class="headerLink" href="#"> Addons   </a>
-        <a class="headerLink" href="#"> Slimefun   </a>
+      <div class="header-links-area">
+        <a class="header-link" href="#">Addons</a>
+        <a class="header-link" href="#">Slimefun</a>
+      </div>
     </div>
-
   </div>
 </template>

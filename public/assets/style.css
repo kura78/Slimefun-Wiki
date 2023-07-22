@@ -10,8 +10,8 @@ h1 {
   color: #30353b;
   text-align: center;
   flex: auto;
-  font-size: 24px; 
-  font-weight: bold; 
+  font-size: 24px;
+  font-weight: bold;
 }
 
 hr {
@@ -20,8 +20,8 @@ hr {
   border: none;
   background-color: #30353A;
   width: 100px;
-  margin: 0 auto; 
-  margin-bottom: 20px; 
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 p {
@@ -32,26 +32,41 @@ p {
   text-align: center;
 }
 
-.headerContent {
-  width: 100%;
-  max-width: auto;
-  padding: 15px 20px;
-  display: flex;
+.wordmark {
   align-items: center;
-  background: #e1e1fa; 
-  position: sticky;
-  top: 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-grow: 0;
 }
 
+.header, .header-content {
+  display: flex;
+  width: 100%;
+}
 
-.headerLinksArea {
+.header {
+  background: #e1e1fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-content {
+  align-items: center;
+  max-width: 1024px;
+  padding: 10px 20px;
+}
+
+.header-links-area {
+  flex-grow: 5;
   margin-left: 10px;
   margin-right: 10px;
-  flex-grow: 5;
 }
 
-.headerLink {
+.header-link {
   margin-left: 5px;
   margin-right: 5px;
   color: var(--txt1);
@@ -62,15 +77,11 @@ p {
   transition: .1s;
 }
 
-.headerLink:hover {
-  color: var(--txt3);
+.header-link:hover {
   transition: .1s;
 }
+
 .content {
   padding: 16px;
-  padding-top: 112px; 
+  padding-top: 112px;
 }
-
-
-
-
