@@ -17,11 +17,11 @@ export default {
       <div class="footerContent">
         <div class="footerTop">
           Made by Orchid Development &bull; This website is <a class="footerLink"
-            :href="giturl" target="_blank" rel="noopener noreferrer">open source</a> on
+            :href="giturl.replace('.git', '')" target="_blank" rel="noopener noreferrer">open source</a> on
           Github.
         </div>
         <div class="footerBottom">
-            {{ branch }}@<a :href="commiturl" class="footerLink">{{ commit }}</a> &bull; <a class="footerLink" href="https://github.com/kura78/Slimefun-Wiki/issues">Open an issue</a> &bull; <a class="footerLink" href="https://github.com/kura78/Slimefun-Wiki/fork">Fork repository</a>
+            {{ branch }}@<a :href="commiturl" class="footerLink">{{ commit }}</a> &bull; <a class="footerLink" :href="giturl.replace('.git', '')+'/issues'">Open an issue</a> &bull; <a class="footerLink" :href="giturl.replace('.git', '')+'/fork'">Fork repository</a>
         </div>
       </div>
     </div>
