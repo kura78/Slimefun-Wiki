@@ -1,0 +1,12 @@
+{
+    "id": "cultivation",
+    "name": "Cultivation",
+    "items": [
+        "Item 1",
+        "Item 2"
+    ],
+    "multiblocks": [
+        "Multiblock 1",
+        "Multiblock 2"
+    ]
+}
