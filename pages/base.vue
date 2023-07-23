@@ -9,6 +9,4 @@
 .fit-max {
     width: 1024px;
 }
-
-.item-list-page-header {}
 </style>
