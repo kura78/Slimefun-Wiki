@@ -1,8 +1,7 @@
 <template>
-    <Header />
-
     <div class="page-container">
-        <div class="page-content">
+       <div class="page-content">
+           
 
 
 
@@ -20,10 +19,7 @@
 
 
 
-
-
-        </div>
-    </div>
-
-    <Footer />
+       
+       </div>    
+   </div>    
 </template>
