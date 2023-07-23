@@ -2,12 +2,12 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt build",
-    "dev": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt dev",
-    "dev-win": "nuxt dev",
-    "generate": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url`  nuxt generate",
-    "preview": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt preview",
-    "postinstall": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt prepare",
+    "build": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` HOSTNAME=0 PORT=8900 nuxt build",
+    "dev": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` HOSTNAME=0 PORT=8900 nuxt dev",
+    "dev-win": "set HOSTNAME=0 && set PORT=8900 && nuxt dev",
+    "generate": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` HOSTNAME=0 PORT=8900 nuxt generate",
+    "preview": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` HOSTNAME=0 PORT=8900 nuxt preview",
+    "postinstall": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` HOSTNAME=0 PORT=8900 nuxt prepare",
     "production": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` HOSTNAME=0 PORT=8900 nuxt start"
   },
   "devDependencies": {
