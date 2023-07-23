@@ -7,4 +7,4 @@ git pull https://github.com/orchidtowny/slimefun-handbook
 echo "[Slimefun Handbook] Building handbook"
 sudo npm run build
 echo "[Slimefun Handbook] Launching handbook in production mode"
-npm run production
+npm run preview
