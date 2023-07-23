@@ -4,7 +4,7 @@
   "scripts": {
     "build": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt build",
     "dev": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt dev",
-    "dev-win": "set NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` && set NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` && set NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` && nuxt dev",
+    "dev-win": "nuxt dev",
     "generate": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url`  nuxt generate",
     "preview": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt preview",
     "postinstall": "NUXT_PUBLIC_GIT_COMMIT=`git rev-parse --short HEAD` NUXT_PUBLIC_GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` NUXT_PUBLIC_GIT_URL=`git config --get remote.origin.url` nuxt prepare"
